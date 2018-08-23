@@ -30,3 +30,5 @@
 <span style="font-family: Verdana, sans-serif;"><a href="http://www.javaguides.net/2018/08/java-generics-upper-bounded-wildcards.html" target="_blank">Java Generics Upper Bounded Wildcards Example</a></span><br>
 <a href="http://www.javaguides.net/2018/08/java-generics-lower-bounded-wildcards.html" target="_blank"><span style="font-family: Verdana, sans-serif;">Java Generics Lower Bounded Wildcards Example</span></a></div>
 </div>
+
+SINCE Java 5, generics have been a part of the language. Before generics, you had to cast every object you read from a collection. If someone accidentally inserted an object of the wrong type, casts could fail at runtime. With generics, you tell the compiler what types of objects are permitted in each collection. The compiler inserts casts for you automatically and tells you at compile time if you try to insert an object of the wrong type. This results in programs that are both safer and clearer, but these benefits, which are not limited to collections, come at a price. This chapter tells you how to maximize the benefits and minimize the complications.
